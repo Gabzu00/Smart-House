@@ -1,0 +1,39 @@
+@import "../../vars.css";
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  place-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.info{
+  display:flex;
+  flex-direction: column;
+  width: 369px;
+  height: 285.231px;
+
+ 
+  border-radius: 12px;
+  border: 0px solid rgba(255, 255, 255, 0.08);
+  background: rgba(20, 28, 69, 0.5);
+
+  padding: 20px;
+  margin: 40px;
+  
+}
+
+.cardImg{
+  width: 104px;
+  height: 104px;
+  filter: blur(0);
+}
+
+.title, .description{
+  filter: blur(0);
+} 
+
+/* .description{
+  filter: blur(0);
+} */

@@ -1,0 +1,19 @@
+@import "../../vars.css";
+
+.navbar{
+  height: 144px;
+
+}
+
+.title{
+  display: inline;
+   /* --> block eller inline */
+  position: relative;
+  color: var(--color-text);
+  font-size: 62px;
+  font-weight: 400;
+  font-family: var(--font-galada);
+  top: 22px;
+  left: 29px;
+}
+
